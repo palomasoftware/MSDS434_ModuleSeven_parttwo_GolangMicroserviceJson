@@ -1,4 +1,6 @@
- sudo apt-get update
+// download of postman to test application : https://www.postman.com/downloads/
+
+   sudo apt-get update
    sudo apt install golang-go
    go mod init github.com/HelloWorld/goProductAPI
    go mod tidy
