@@ -4,6 +4,7 @@
    sudo apt install golang-go
    go mod init github.com/HelloWorld/goProductAPI
    go mod tidy
+   go mod download github.com/gorilla/mux
    sudo apt install golang-github-gorilla-mux-dev
    mkdir data
    cd data
